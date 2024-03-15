@@ -23,6 +23,8 @@
     border-width: 0px;
     border-style: solid;
     background-color: white;
+    border-radius:9px;
+    over-flow:hidden;
 }
 .top-section{
     width: 100%;
@@ -97,7 +99,7 @@
    
    .card{
     display: flex;
-/*    max-width: 900px; */
+   max-width: 600px;
    }
    .bottom-section{
     padding:4em;
