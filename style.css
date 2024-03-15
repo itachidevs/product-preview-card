@@ -26,6 +26,8 @@
     border-width: 0px;
     border-style: solid;
     background-color: white;
+    border-radius:9px;
+    over-flow:hidden;
 }
 .top-section{
     width: 100%;
@@ -106,13 +108,10 @@
    
    .card{
     display: flex;
-    width: 50%;
+   max-width: 1440px;
    }
-   .top-section-img{
-    display: none;
-   }
-   .top-section-img-desktop{
-    display: block;
+   .bottom-section{
+    padding:4em;
     width: 50%;
     flex-grow: 1;
    }
@@ -126,11 +125,29 @@
     width: 50%;
     height:50%;
    }
-  
-}
-@media screen and (min-width:955px){
-    .card{
-        width: 60%;
-        height: 70%;
-    }
+   .top-section-img{
+    display: none;
+   }
+   .about{
+    margin-top: 2em;
+    font-size: 2em;
+   }
+   .card-head-big{
+    margin-top: 1rem;
+    font-size: 5em;
+   }
+   .card-head-small{
+    margin-top: 1em;
+    font-size: 2rem;
+   }
+   .card-price{
+    margin-top: 2em;
+   }
+   .card-price-striked{
+    margin-top: 2em;
+   }
+   .btn{
+    margin-top: 2em;
+   }
+
 }
